@@ -12,6 +12,7 @@
     "cypress": "^14.1.0"
   },
   "dependencies": {
-    "curso-cypress": "file:"
+    "curso-cypress": "file:",
+    "cypress-plugin-tab": "^1.0.5"
   }
 }

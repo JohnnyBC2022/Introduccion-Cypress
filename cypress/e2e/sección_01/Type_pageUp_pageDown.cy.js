@@ -1,9 +1,11 @@
 /// <reference types="cypress" />
 
 describe("Ejemplo de Type pageUp, pageDown  ", () => {
+  // Necesario para que nos de un error
   Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   })
+  
   it("Type pageUp ", () => {
     cy.visit("https://demoqa.com/text-box");
     cy.title().should("eq", "DEMOQA");
